@@ -1,6 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
 import PageBanner from '@/components/PageBanner';
+import Link from 'next/link';
 
 export default function ChairmanMessage() {
   return (
