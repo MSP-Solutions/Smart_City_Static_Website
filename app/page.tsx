@@ -28,7 +28,7 @@ const slides = [
     href: "/services",
   },
   {
-    title: "Your Gateway to Japan",
+    title: "Your Gateway to Japan here",
     subtitle:
       "Our Students at TIA, Kathmandu for flight to Japan. Join the successful journey.",
     image:
