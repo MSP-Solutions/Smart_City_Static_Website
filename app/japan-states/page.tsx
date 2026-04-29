@@ -169,16 +169,16 @@ const StateCard = ({ state, index }: { state: any; index: number }) => {
         <h3 className="text-2xl md:text-3xl font-black text-white mb-3 tracking-tight">
           {state.name}
         </h3>
-        <p className="text-sm text-white/60 leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-100 mb-6 line-clamp-3 font-medium">
+        <p className="text-sm text-white/60 leading-relaxed opacity-0 group-hover:opacity-100 transition-opacity duration-700 delay-100 mb-6 line-clamp-3">
           {state.desc}
         </p>
-        <Link
+        {/* <Link
           href="/contact"
           className="flex items-center gap-3 text-white font-black text-[10px] uppercase tracking-widest group/link"
         >
           View Schools{" "}
           <ArrowRight className="w-4 h-4 text-secondary transition-transform group-hover/link:translate-x-2" />
-        </Link>
+        </Link> */}
       </div>
     </div>
   );
@@ -206,7 +206,7 @@ export default function JapanStates() {
             <h3 className="text-4xl font-black text-primary mb-6 tracking-tighter uppercase tracking-widest text-sm">
               And Many More Prefectures...
             </h3>
-            <p className="text-gray-500 font-medium max-w-2xl mx-auto mb-10 text-lg leading-relaxed">
+            <p className="text-gray-500 max-w-2xl mx-auto mb-10 text-lg leading-relaxed">
               Smart City International Education covers all 47 prefectures of
               Japan. From the snowy peaks of Hokkaido to the tropical shores of
               Okinawa, we help you find the perfect environment for your

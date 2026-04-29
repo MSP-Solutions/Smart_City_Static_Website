@@ -3,14 +3,14 @@ import Image from "next/image";
 import PageBanner from "@/components/PageBanner";
 import Link from "next/link";
 
-export default function ChairmanMessage() {
+export default function ManagingDirectorMessage() {
   return (
     <main>
       <PageBanner
-        title="Chairman Message"
+        title="Managing Director Message"
         subtitle="A message from our leadership to the aspiring students of Nepal."
-        image="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&q=80&w=2000"
-        breadcrumb={[{ name: "Chairman", href: "/chairman-message" }]}
+        image="https://plus.unsplash.com/premium_photo-1661414415246-3e502e2fb241?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        breadcrumb={[{ name: "Managing Director", href: "/md-message" }]}
       />
 
       <section className="py-24 bg-white">
@@ -18,25 +18,17 @@ export default function ChairmanMessage() {
           <div className="max-w-5xl mx-auto flex flex-col md:flex-row items-center gap-16">
             <div className="md:w-1/3">
               <div className="relative w-full aspect-[3/4] rounded-[2.5rem] overflow-hidden shadow-2xl border-b-8 border-secondary">
-                <Image
-                  src="/chairmainMessage.png"
-                  alt="Chairman"
-                  fill
-                  className="object-cover"
-                />
+                <Image src="/md.png" alt="MD" fill className="object-cover" />
               </div>
               <div className="mt-8 text-center md:text-left">
                 <h3 className="text-2xl font-black text-primary tracking-tight">
-                 Subas Bashyal
+                  Suraj Bhusal
                 </h3>
                 <p className="text-secondary font-black uppercase tracking-[0.2em] text-[10px]">
-                  Chairman
+                  Principal
                 </p>
                 <p className="text-primary font-black uppercase tracking-[0.2em] text-[10px]">
-                  +977-9857077057(Nepal)
-                </p>
-                <p className="text-secondary font-black uppercase tracking-[0.2em] text-[10px]">
-                  +81-7076015678 (Japan)
+                  +977-9857086452
                 </p>
               </div>
             </div>
@@ -50,29 +42,37 @@ export default function ChairmanMessage() {
               </h2>
               <div className="space-y-8 text-gray-500 leading-relaxed text-xl italic">
                 <p>
-                  Namaste and Welcome to Smart City International Education!
+                  Namaste! As the Managing Director of Smart City International
+                  Education, I personally oversee every step of your journey —
+                  from the moment you walk through our doors to the day you
+                  board your flight to Japan.
                 </p>
                 <p>
-                  It is my great pleasure to welcome you to our institution.
-                  Over the years, we have helped hundreds of students realize
-                  their dream of studying and working in Japan. Our commitment
-                  to quality education and honest guidance has made us a trusted
-                  name in Nepal.
+                  My primary responsibility is to ensure that our Nepal-side
+                  operations run with precision and care. I work closely with
+                  our counselling team, documentation specialists, and language
+                  instructors to guarantee that each student receives
+                  personalised attention and the best possible preparation for
+                  life in Japan.
                 </p>
                 <p>
-                  Japan offers a world-class education system and incredible
-                  career opportunities. At Smart City, we don&apos;t just teach
-                  language; we prepare you for a new life.
+                  I believe that transparency and honesty are the foundation of
+                  any successful consultancy. We never make promises we cannot
+                  keep. Instead, we provide you with a clear, realistic roadmap
+                  — and then we walk that road with you, every step of the way.
                 </p>
                 <p>
-                  We invite you to join our community and take the first step
-                  towards a bright future. Choose Smart, Be Smart!
+                  Whether you are aiming for a language school, a vocational
+                  college, or a university, our team is here to match your goals
+                  with the right institution. I am always available to listen to
+                  your concerns and help you make informed decisions. Together,
+                  let us build your future in Japan. Choose Smart, Be Smart!
                 </p>
                 <div className="pt-12 border-t border-gray-100 flex flex-col sm:flex-row items-center justify-between gap-8">
                   <div className="flex items-center gap-4">
                     <div className="w-16 h-px bg-secondary" />
                     <p className="font-black text-primary uppercase tracking-widest text-sm">
-                      Subas Bashyal
+                      Suraj Bhusal
                     </p>
                   </div>
                   <Link

@@ -63,7 +63,7 @@ export default function Placement() {
                 <div className="absolute inset-0 bg-secondary rounded-[2.5rem] rotate-3 opacity-10" />
                 <div className="bg-primary p-12 rounded-[2.5rem] text-white relative z-10 shadow-2xl">
                    <h4 className="text-2xl font-black mb-6 leading-tight">Ready to find your <br /><span className="text-secondary">Perfect School?</span></h4>
-                   <p className="text-white/60 mb-8 font-medium">Let our experts guide you to the institution that matches your career dreams.</p>
+                   <p className="text-white/60 mb-8">Let our experts guide you to the institution that matches your career dreams.</p>
                    <Link href="/contact" className="btn-primary w-full !bg-white !text-primary hover:!bg-secondary hover:!text-white group shadow-xl text-center inline-block">
                       Apply Now <ArrowRight className="inline-block ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                    </Link>

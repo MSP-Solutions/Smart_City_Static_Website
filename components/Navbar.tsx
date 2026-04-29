@@ -28,6 +28,7 @@ const Navbar = () => {
       subItems: [
         { name: "About Us", href: "/about" },
         { name: "Chairman Message", href: "/chairman-message" },
+        { name: "Managing Director Message", href: "/md-message" },
         { name: "Japan States", href: "/japan-states" },
       ],
     },
@@ -77,8 +78,8 @@ const Navbar = () => {
 
         <nav className="hidden lg:flex items-center gap-10">
           {navLinks.map(link => (
-            <div 
-              key={link.name} 
+            <div
+              key={link.name}
               className="relative"
               onMouseEnter={() => setHoveredMenu(link.name)}
               onMouseLeave={() => setHoveredMenu(null)}
@@ -90,11 +91,15 @@ const Navbar = () => {
               >
                 {link.name}
                 {link.subItems && (
-                  <ChevronDown className={`w-4 h-4 transition-transform ${hoveredMenu === link.name ? "rotate-180 text-secondary" : ""}`} />
+                  <ChevronDown
+                    className={`w-4 h-4 transition-transform ${hoveredMenu === link.name ? "rotate-180 text-secondary" : ""}`}
+                  />
                 )}
               </Link>
               {link.subItems && (
-                <div className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 bg-white rounded-2xl shadow-2xl transition-all duration-300 transform overflow-hidden border border-gray-100 p-2 ${hoveredMenu === link.name ? "opacity-100 visible translate-y-0" : "opacity-0 invisible translate-y-2"}`}>
+                <div
+                  className={`absolute top-full left-1/2 -translate-x-1/2 mt-2 w-64 bg-white rounded-2xl shadow-2xl transition-all duration-300 transform overflow-hidden border border-gray-100 p-2 ${hoveredMenu === link.name ? "opacity-100 visible translate-y-0" : "opacity-0 invisible translate-y-2"}`}
+                >
                   {link.subItems.map(sub => (
                     <Link
                       key={sub.name}
@@ -138,14 +143,19 @@ const Navbar = () => {
       {isMobileMenuOpen && (
         <div className="lg:hidden absolute top-full left-0 w-full bg-white shadow-2xl py-8 px-6 flex flex-col gap-2 animate-fade-in border-t border-gray-100 max-h-[85vh] overflow-y-auto">
           {navLinks.map(link => (
-            <div key={link.name} className="border-b border-gray-50 pb-2 last:border-0">
+            <div
+              key={link.name}
+              className="border-b border-gray-50 pb-2 last:border-0"
+            >
               {link.subItems ? (
-                <button 
+                <button
                   onClick={() => toggleMobileSub(link.name)}
                   className="w-full flex items-center justify-between text-xl font-black text-primary py-2"
                 >
                   {link.name}
-                  <ChevronDown className={`w-5 h-5 transition-transform duration-300 ${openMobileSub === link.name ? "rotate-180 text-secondary" : ""}`} />
+                  <ChevronDown
+                    className={`w-5 h-5 transition-transform duration-300 ${openMobileSub === link.name ? "rotate-180 text-secondary" : ""}`}
+                  />
                 </button>
               ) : (
                 <Link
@@ -156,9 +166,9 @@ const Navbar = () => {
                   {link.name}
                 </Link>
               )}
-              
+
               {link.subItems && (
-                <div 
+                <div
                   className={`overflow-hidden transition-all duration-300 ${openMobileSub === link.name ? "max-h-64 opacity-100" : "max-h-0 opacity-0"}`}
                 >
                   <div className="pl-4 flex flex-col gap-4 border-l-2 border-secondary/20 ">
@@ -178,7 +188,11 @@ const Navbar = () => {
               )}
             </div>
           ))}
-          <Link href="/contact" className="btn-primary w-full text-center mt-4 !py-5" onClick={() => setIsMobileMenuOpen(false)}>
+          <Link
+            href="/contact"
+            className="btn-primary w-full text-center mt-4 !py-5"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
             Apply Now
           </Link>
         </div>

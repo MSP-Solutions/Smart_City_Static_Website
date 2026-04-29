@@ -32,7 +32,7 @@ const Footer = () => {
                 />
               </div>
             </div>
-            <p className="text-white/50 text-sm mb-8 leading-relaxed font-medium max-w-xs">
+            <p className="text-white/50 text-sm mb-8 leading-relaxed max-w-xs">
               Empowering Nepalese students to achieve their dreams in Japan
               through quality education and professional guidance.
             </p>
@@ -155,7 +155,7 @@ const Footer = () => {
                   <p className="text-white text-[10px] font-black uppercase tracking-widest mb-1">
                     Location
                   </p>
-                  <p className="text-[11px] leading-tight">Sorhakhutte Chowk, Kathmandu, Nepal</p>
+                  <p className="text-[11px] leading-tight">Butwal Sub-Metropolitan City-6, Rupandehi, Lumbini Province, Nepal</p>
                 </div>
               </li>
               <li className="flex items-start gap-4 group">
@@ -167,7 +167,7 @@ const Footer = () => {
                     Call Us
                   </p>
                   <p className="text-[11px] leading-tight">
-                    +977-9851040518 <br /> +977-14983643
+                    071-532473
                   </p>
                 </div>
               </li>
@@ -179,7 +179,7 @@ const Footer = () => {
                   <p className="text-white text-[10px] font-black uppercase tracking-widest mb-1">
                     Email Us
                   </p>
-                  <p className="text-[11px] leading-tight lowercase">info@smartcitynepal.com</p>
+                  <p className="text-[11px] leading-tight lowercase">study@smartcityinternational.edu.np</p>
                 </div>
               </li>
             </ul>

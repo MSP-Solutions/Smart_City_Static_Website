@@ -28,11 +28,20 @@ const slides = [
     href: "/services",
   },
   {
-    title: "Your Gateway to Japan here",
+    title: "Your Gateway to Japan",
     subtitle:
       "Our Students at TIA, Kathmandu for flight to Japan. Join the successful journey.",
     image:
       "https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?auto=format&fit=crop&q=80&w=2000",
+    cta: "Apply Now",
+    href: "/contact",
+  },
+  {
+    title: "",
+    subtitle:
+      "",
+    image:
+      "https://scontent.fktm17-1.fna.fbcdn.net/v/t39.30808-6/484053762_660201089870214_250771274889610170_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2a1932&_nc_ohc=tyhpniDv24MQ7kNvwH1Yw26&_nc_oc=Adq8Hn6tj-kMS1SXsNpGK44gzHHHNi-oWtGOCbFGdqRcaF4KNVz60oImyL8UGmndUqko5pP6LsnRtKrlwSUdK0LG&_nc_zt=23&_nc_ht=scontent.fktm17-1.fna&_nc_gid=6xdeQJJI6JvHVj2fc8OtqA&_nc_ss=782a8&oh=00_Af2bYk6PgB_mv0D-c2xfvJtXBUbQIBP4Bvvfopg2fOW3Iw&oe=69F7B374",
     cta: "Apply Now",
     href: "/contact",
   },
@@ -117,13 +126,13 @@ export default function Home() {
   return (
     <main className="relative">
       {/* Hero Carousel - Cloned vibe from Sekai Education */}
-      <section className="relative h-screen flex items-center overflow-hidden bg-primary">
+      <section className="relative h-screen flex items-center overflow-hidden bg-dark">
         {slides.map((slide, index) => (
           <div
             key={index}
             className={`absolute inset-0 transition-opacity duration-1000 ${index === currentSlide ? "opacity-100 z-10" : "opacity-0 z-0"}`}
           >
-            <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/50 to-transparent z-10" />
+            <div className="absolute inset-0 bg-gradient-to-r from-dark/95 via-dark/10 to-transparent z-10" />
             <Image
               src={slide.image}
               alt={slide.title}
@@ -135,12 +144,12 @@ export default function Home() {
             <div className="container mx-auto px-6 relative z-20 h-full flex flex-col justify-center">
               <div className="max-w-3xl animate-fade-in">
                 <span className="text-secondary font-black uppercase tracking-[0.4em] text-[10px] mb-6 block">
-                  Smart City Int'l Education
+                  Smart City Int&apos;l Education
                 </span>
                 <h2 className="text-3xl md:text-5xl font-black text-white mb-6 leading-[1.1] tracking-tighter">
                   {slide.title}
                 </h2>
-                <p className="text-xl text-white/80 mb-10 leading-relaxed max-w-2xl font-medium">
+                <p className="text-xl text-white/80 mb-10 leading-relaxed max-w-2xl ">
                   {slide.subtitle}
                 </p>
                 <div className="flex flex-wrap gap-4">
@@ -202,15 +211,15 @@ export default function Home() {
             </div>
           </div>
           <div className="p-8 flex items-center gap-6 border-r border-gray-50 hover:bg-light transition-colors group">
-            <div className="w-12 h-12 rounded-2xl bg-primary/5 flex items-center justify-center group-hover:bg-primary transition-colors">
-              <MapPin className="w-6 h-6 text-primary group-hover:text-white" />
+            <div className="w-12 shrink-0 h-12 rounded-2xl bg-primary/5 flex items-center justify-center group-hover:bg-primary transition-colors">
+              <MapPin className="w-6 h-6 text-primary shrink-0 group-hover:text-white" />
             </div>
             <div>
               <p className="text-[10px] font-black text-secondary uppercase tracking-widest mb-1">
                 Our Location
               </p>
               <p className="text-sm font-bold text-primary">
-                Sorhakhutte, Kathmandu
+                Butwal Sub-Metropolitan City-6, Rupandehi, Lumbini Province, Nepal
               </p>
             </div>
           </div>
@@ -237,9 +246,9 @@ export default function Home() {
                 Our <br />{" "}
                 <span className="text-secondary">Services.</span>
               </h3>
-              <p className="text-gray-500 text-lg font-medium leading-relaxed">
+              <p className="text-gray-500 text-lg leading-relaxed">
                 We provide end-to-end support for your Japanese journey,
-                ensuring every step is "Smart" and successful.
+                ensuring every step is &quot;Smart&quot; and successful.
               </p>
             </div>
             <Link href="/services" className="btn-outline">
@@ -259,7 +268,7 @@ export default function Home() {
                 <h4 className="text-xl font-black mb-4 text-primary leading-tight">
                   {service.title}
                 </h4>
-                <p className="text-sm text-gray-500 leading-relaxed font-medium mb-6">
+                <p className="text-sm text-gray-500 leading-relaxed mb-6">
                   {service.desc}
                 </p>
                 <Link
@@ -276,7 +285,7 @@ export default function Home() {
       </section>
 
       {/* Japan States Section */}
-      <section className="py-32 bg-primary text-white relative overflow-hidden">
+      <section className="py-32 bg-dark text-white relative overflow-hidden">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-secondary/10 blur-[120px] -mr-64 -mt-64 rounded-full" />
         <div className="container mx-auto px-6 relative z-10">
           <div className="flex flex-col md:flex-row items-end justify-between mb-20 gap-6">
@@ -288,10 +297,9 @@ export default function Home() {
                 Explore Major <br />{" "}
                 <span className="text-secondary">Japanese States.</span>
               </h3>
-              <p className="text-white/50 text-lg font-medium leading-relaxed">
+              <p className="text-white/70 text-lg leading-relaxed">
                 We have strong partnerships across all major Japanese
-                prefectures. Choose your preferred destination for study or
-                work.
+                prefectures. Choose your preferred destination for study or work.
               </p>
             </div>
             <Link href="/japan-states" className="btn-primary">
@@ -303,7 +311,7 @@ export default function Home() {
             {states.map((state, i) => (
               <div
                 key={i}
-                className="relative group rounded-[2.5rem] overflow-hidden h-[500px] shadow-2xl"
+                className="relative group rounded-[2.5rem] overflow-hidden h-[500px] "
               >
                 <Image
                   src={state.image}
@@ -311,7 +319,7 @@ export default function Home() {
                   fill
                   className="object-cover transition-transform duration-1000 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent opacity-100" />
+                <div className="absolute inset-0 bg-gradient-to-t from-primary/20 via-primary/10 to-transparent opacity-100" />
                 <div className="absolute bottom-0 left-0 p-12 w-full transform translate-y-6 group-hover:translate-y-0 transition-transform duration-500">
                   <span className="bg-secondary text-white text-[10px] font-black px-4 py-1.5 rounded-full uppercase mb-4 inline-block tracking-[0.2em]">
                     {state.region} Region
@@ -351,7 +359,7 @@ export default function Home() {
                   Japanese Excellence.
                 </span>
               </h3>
-              <p className="text-gray-500 mb-10 text-xl font-medium leading-relaxed">
+              <p className="text-gray-500 mb-10 text-xl leading-relaxed">
                 Smart City International Education is a reputed educational
                 institution based in Kathmandu, Nepal. Our excellence in
                 Japanese language training has best influenced student exchange

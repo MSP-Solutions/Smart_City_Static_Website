@@ -53,7 +53,7 @@ export default function Services() {
                   <h3 className="text-3xl font-black text-primary mb-6 group-hover:text-secondary transition-colors tracking-tight uppercase tracking-widest text-sm">
                     {service.title}
                   </h3>
-                  <p className="text-gray-500 leading-relaxed mb-8 font-medium text-lg">
+                  <p className="text-gray-500 leading-relaxed mb-8 text-lg">
                     {service.desc}
                   </p>
                   <div className="flex items-center gap-4 text-secondary font-black text-[10px] uppercase tracking-widest group/link">

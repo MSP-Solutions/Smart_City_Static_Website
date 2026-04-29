@@ -21,7 +21,7 @@ export default function About() {
               <span className="text-secondary">Consultancy in Nepal.</span>
             </h2>
             
-            <div className="grid md:grid-cols-2 gap-12 text-gray-600 leading-relaxed text-lg font-medium">
+            <div className="grid md:grid-cols-2 gap-12 text-gray-600 leading-relaxed text-lg">
               <div>
                 <p className="mb-6">
                   Smart City International Education is a reputed educational institution based in Kathmandu, Nepal. Our excellence in Japanese language training has best influenced student exchange programs between Nepal and Japan.

@@ -48,7 +48,7 @@ export default function TestPrep() {
                       </div>
                       <div>
                         <h4 className="font-black text-primary mb-1 uppercase text-[10px] tracking-widest">{item.title}</h4>
-                        <p className="text-sm text-gray-500 font-medium leading-relaxed">{item.desc}</p>
+                        <p className="text-sm text-gray-500 leading-relaxed">{item.desc}</p>
                       </div>
                     </div>
                   ))}
@@ -59,7 +59,7 @@ export default function TestPrep() {
                 <div className="absolute top-0 right-0 w-40 h-40 bg-secondary/20 blur-[80px] -mr-20 -mt-20" />
                 <Star className="w-12 h-12 text-secondary mb-8 group-hover:rotate-45 transition-transform duration-700" />
                 <h3 className="text-3xl font-black mb-6 tracking-tight leading-tight">Join Our Next Batch</h3>
-                <p className="text-white/70 text-lg font-medium mb-10 leading-relaxed">
+                <p className="text-white/70 text-lg mb-10 leading-relaxed">
                   Admissions are now open for morning and evening shifts. Start your journey with the best mentors in Kathmandu.
                 </p>
                 <Link href="/contact" className="btn-primary w-full !bg-white !text-primary hover:!bg-secondary hover:!text-white shadow-xl text-center inline-block">Check Schedule</Link>

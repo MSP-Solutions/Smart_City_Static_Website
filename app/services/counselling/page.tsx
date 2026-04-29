@@ -30,7 +30,7 @@ export default function Counselling() {
                     <item.icon className="w-8 h-8 text-primary group-hover:text-white transition-colors" />
                  </div>
                  <h3 className="text-sm font-black text-primary mb-4 tracking-[0.2em] uppercase">{item.title}</h3>
-                 <p className="text-gray-500 font-medium leading-relaxed mb-6 text-lg">{item.desc}</p>
+                 <p className="text-gray-500 leading-relaxed mb-6 text-lg">{item.desc}</p>
                  <div className="w-10 h-1 bg-secondary rounded-full" />
               </div>
             ))}
@@ -40,7 +40,7 @@ export default function Counselling() {
              <div className="absolute top-0 right-0 w-96 h-96 bg-secondary/10 blur-[100px] -mr-48 -mt-48" />
              <div className="md:w-2/3 relative z-10">
                 <h2 className="text-4xl md:text-5xl font-black mb-8 tracking-tighter leading-tight">Our 99% Success Rate <br /> is built on <span className="text-secondary">Precision.</span></h2>
-                <p className="text-white/70 text-lg font-medium leading-relaxed">
+                <p className="text-white/70 text-lg leading-relaxed">
                   A single error can lead to a visa rejection. Our "Smart" documentation system ensures that your dreams aren't delayed by paperwork.
                 </p>
              </div>
