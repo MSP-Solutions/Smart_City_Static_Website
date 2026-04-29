@@ -51,7 +51,7 @@ export default function Contact() {
                 <h3 className="mb-1.5 opacity-60 text-[9px] tracking-[0.2em]">
                   {card.title}
                 </h3>
-                <div className="text-md md:text-lg mb-0.5 lowercase tracking-normal">
+                <div className="text-md md:text-lg mb-0.5 lowercase tracking-normal font-normal">
                   {card.val}
                 </div>
               </div>
