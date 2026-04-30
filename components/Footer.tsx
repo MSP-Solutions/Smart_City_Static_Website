@@ -105,6 +105,15 @@ const Footer = () => {
             <ul className="space-y-4 text-white/50 text-sm font-bold">
               <li>
                 <Link
+                  href="/services/japanese-language-classes"
+                  className="hover:text-secondary flex items-center gap-2 group transition-colors"
+                >
+                  <ArrowRight className="w-3 h-3 text-secondary opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />{" "}
+                  Japanese Language Classes
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/services/test-prep"
                   className="hover:text-secondary flex items-center gap-2 group transition-colors"
                 >
@@ -185,7 +194,9 @@ const Footer = () => {
                   <p className="text-white text-[10px] font-black uppercase tracking-widest mb-1">
                     Email Us
                   </p>
-                  <p className="text-[11px] leading-tight lowercase">study@smartcityinternational.edu.np</p>
+                  <p className="text-[11px] leading-tight lowercase">
+                    study@smartcityinternational.edu.np
+                  </p>
                 </div>
               </li>
             </ul>

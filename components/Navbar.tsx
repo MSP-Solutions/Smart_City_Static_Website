@@ -36,6 +36,7 @@ const Navbar = () => {
       name: "Services",
       href: "/services",
       subItems: [
+        { name: "Japanese Language Classes", href: "/services/japanese-language-classes" },
         { name: "Test Preparation", href: "/services/test-prep" },
         { name: "Counselling", href: "/services/counselling" },
         { name: "Visa Processing", href: "/services/visa" },

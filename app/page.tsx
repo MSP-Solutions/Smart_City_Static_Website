@@ -38,8 +38,7 @@ const slides = [
   },
   {
     title: "",
-    subtitle:
-      "",
+    subtitle: "",
     image:
       "https://scontent.fktm17-1.fna.fbcdn.net/v/t39.30808-6/484053762_660201089870214_250771274889610170_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2a1932&_nc_ohc=tyhpniDv24MQ7kNvwH1Yw26&_nc_oc=Adq8Hn6tj-kMS1SXsNpGK44gzHHHNi-oWtGOCbFGdqRcaF4KNVz60oImyL8UGmndUqko5pP6LsnRtKrlwSUdK0LG&_nc_zt=23&_nc_ht=scontent.fktm17-1.fna&_nc_gid=6xdeQJJI6JvHVj2fc8OtqA&_nc_ss=782a8&oh=00_Af2bYk6PgB_mv0D-c2xfvJtXBUbQIBP4Bvvfopg2fOW3Iw&oe=69F7B374",
     cta: "Apply Now",
@@ -88,9 +87,14 @@ const states = [
 
 const services = [
   {
-    title: "Japanese Language Class",
+    title: "Japanese Language Classes",
     icon: BookOpen,
-    desc: "Comprehensive JLPT, NAT, TOPJ, JCERT, JPT, and JLCT preparation.",
+    desc: "Comprehensive Japanese language training from basic to advanced levels.",
+  },
+  {
+    title: "Test Preparation",
+    icon: BookOpen,
+    desc: "Specialized training for JLPT, NAT, TOPJ, JCERT, JPT, and JLCT exams.",
   },
   {
     title: "Student Visa Processing",
@@ -240,20 +244,21 @@ export default function Home() {
       {/* Services Section */}
       <section className="py-32 bg-white">
         <div className="container mx-auto px-6">
-          <div className="flex flex-col md:flex-row items-end justify-between mb-20 gap-8">
+          <div className="flex justify-between items-center md:mb-6 mb-4">
+            <h3 className="text-2xl md:text-4xl font-black text-primary leading-tight tracking-tighter flex items-center justify-start gap-2">
+              Our <br /> <span className="text-secondary">Services.</span>
+            </h3>
+            <Link href="/services" className="btn-outline">
+              All Services
+            </Link>
+          </div>
+          <div className="flex flex-col md:flex-row items-end justify-between md:mb-20 mb-10 gap-8">
             <div className="max-w-2xl">
-              <h3 className="text-2xl md:text-4xl font-black text-primary mb-6 leading-tight tracking-tighter flex items-center justify-start gap-2">
-                Our <br />{" "}
-                <span className="text-secondary">Services.</span>
-              </h3>
               <p className="text-gray-500 text-lg leading-relaxed">
                 We provide end-to-end support for your Japanese journey,
                 ensuring every step is &quot;Smart&quot; and successful.
               </p>
             </div>
-            <Link href="/services" className="btn-outline">
-              All Services
-            </Link>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
@@ -299,7 +304,8 @@ export default function Home() {
               </h3>
               <p className="text-white/70 text-lg leading-relaxed">
                 We have strong partnerships across all major Japanese
-                prefectures. Choose your preferred destination for study or work.
+                prefectures. Choose your preferred destination for study or
+                work.
               </p>
             </div>
             <Link href="/japan-states" className="btn-primary">
