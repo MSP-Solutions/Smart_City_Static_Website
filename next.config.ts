@@ -22,6 +22,10 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'media.gettyimages.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cityeducare.com',
       }
     ],
   },

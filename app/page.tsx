@@ -19,22 +19,31 @@ import {
 
 const slides = [
   {
-    title: "Japan",
+    title: "Master the Japanese Language",
     subtitle:
-      "Travel & Tourism, Engineering, Business, Health, Science, IT and many more...",
+      "Expert-led training for JLPT, NAT, and TOPJ from N5 to N1 levels. Start your journey with Rupandahi's and Kathmandu's most trusted mentors.",
     image:
-      "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=2000",
-    cta: "Learn More",
-    href: "/services",
+      "/carousel-1.png",
+    cta: "Explore Classes",
+    href: "/services/japanese-language-classes",
   },
   {
-    title: "Your Gateway to Japan",
+    title: "99% Visa Success Rate",
     subtitle:
-      "Our Students at TIA, Kathmandu for flight to Japan. Join the successful journey.",
+      "Achieve your dreams with our industry-leading visa success rate. Comprehensive support for Student, Work, and SSW visas.",
     image:
-      "https://images.unsplash.com/photo-1526481280693-3bfa7568e0f3?auto=format&fit=crop&q=80&w=2000",
-    cta: "Apply Now",
+      "https://scontent.fktm17-1.fna.fbcdn.net/v/t39.30808-6/484053762_660201089870214_250771274889610170_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2a1932&_nc_ohc=tyhpniDv24MQ7kNvwH1Yw26&_nc_oc=Adq8Hn6tj-kMS1SXsNpGK44gzHHHNi-oWtGOCbFGdqRcaF4KNVz60oImyL8UGmndUqko5pP6LsnRtKrlwSUdK0LG&_nc_zt=23&_nc_ht=scontent.fktm17-1.fna&_nc_gid=6xdeQJJI6JvHVj2fc8OtqA&_nc_ss=782a8&oh=00_Af2bYk6PgB_mv0D-c2xfvJtXBUbQIBP4Bvvfopg2fOW3Iw&oe=69F7B374",
+    cta: "Start Application",
     href: "/contact",
+  },
+  {
+    title: "Direct Placement Across Japan",
+    subtitle:
+      "From Tokyo's vibrant heart to Hokkaido's scenic peaks, we connect you with top schools and vocational colleges across all 47 prefectures.",
+    image:
+      "https://cityeducare.com/wp-content/uploads/2021/07/banner-1.jpg",
+    cta: "Explore Destinations",
+    href: "/japan-states",
   },
 ];
 
