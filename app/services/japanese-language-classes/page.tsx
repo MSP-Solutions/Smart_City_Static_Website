@@ -1,7 +1,6 @@
-import React from 'react';
-import Link from 'next/link';
 import PageBanner from '@/components/PageBanner';
-import { BookOpen, CheckCircle2, Star, Award, Users, Laptop, MapPin, Globe, MessageSquare, BookText, GraduationCap } from 'lucide-react';
+import { BookText, Globe, GraduationCap, MapPin, MessageSquare } from 'lucide-react';
+import Link from 'next/link';
 
 export default function JapaneseLanguageClasses() {
   const courseFeatures = [

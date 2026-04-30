@@ -60,9 +60,13 @@ export default function TestPrep() {
                 <Star className="w-12 h-12 text-secondary mb-8 group-hover:rotate-45 transition-transform duration-700" />
                 <h3 className="text-3xl font-black mb-6 tracking-tight leading-tight">Join Our Next Batch</h3>
                 <p className="text-white/70 text-lg mb-8 leading-relaxed">
-                  Admissions are now open for morning and evening shifts. Start your journey with the best mentors.
+                  Admissions are now open for morning and evening shifts. Start your journey with the best mentors in Rupandehi and Kathmandu, Nepal.
                 </p>
                 <div className="space-y-4 mb-10 text-sm font-bold text-white/90">
+                <div className="flex items-center gap-3">
+                    <MapPin className="w-4 h-4 text-secondary" />
+                    <span>Butwal: Traffic Chowk, Butwal, Rupandehi </span>
+                  </div>
                   <div className="flex items-center gap-3">
                     <MapPin className="w-4 h-4 text-secondary" />
                     <span>Kathmandu: Gongabu, Kathmandu (01-4973400)</span>
