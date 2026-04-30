@@ -25,7 +25,7 @@ const nextConfig: NextConfig = {
       },
       {
         protocol: 'https',
-        hostname: ' cityeducare.com',
+        hostname: 'cityeducare.com',
       }
     ],
   },

@@ -22,8 +22,7 @@ const slides = [
     title: "Master the Japanese Language",
     subtitle:
       "Expert-led training for JLPT, NAT, and TOPJ from N5 to N1 levels. Start your journey with Rupandahi's and Kathmandu's most trusted mentors.",
-    image:
-      "/carousel-1.png",
+    image: "/carousel-1.png",
     cta: "Explore Classes",
     href: "/services/japanese-language-classes",
   },
@@ -40,8 +39,7 @@ const slides = [
     title: "Direct Placement Across Japan",
     subtitle:
       "From Tokyo's vibrant heart to Hokkaido's scenic peaks, we connect you with top schools and vocational colleges across all 47 prefectures.",
-    image:
-      "https://cityeducare.com/wp-content/uploads/2021/07/banner-1.jpg",
+    image: "https://cityeducare.com/wp-content/uploads/2021/07/banner-1.jpg",
     cta: "Explore Destinations",
     href: "/japan-states",
   },
@@ -295,7 +293,7 @@ export default function Home() {
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-secondary/10 blur-[120px] -mr-64 -mt-64 rounded-full" />
         <div className="container mx-auto px-6 relative z-10">
           <div className="flex justify-between items-center mb-6">
-             <div>
+            <div>
               <span className="text-secondary font-black uppercase tracking-[0.3em] text-[10px] mb-4 block">
                 Destinations
               </span>
@@ -303,21 +301,19 @@ export default function Home() {
                 Explore Major <br />{" "}
                 <span className="text-secondary">Japanese States.</span>
               </h3>
-             </div>
-              <Link href="/japan-states" className="btn-primary sm:py-3 py-1.5">
+            </div>
+            <Link href="/japan-states" className="btn-primary sm:py-3 py-1.5">
               View All Prefectures
             </Link>
           </div>
           <div className="flex flex-col md:flex-row items-end justify-between mb-20 gap-6">
             <div className="max-w-2xl">
-             
               <p className="text-white/70 text-lg leading-relaxed">
                 We have strong partnerships across all major Japanese
                 prefectures. Choose your preferred destination for study or
                 work.
               </p>
             </div>
-            
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10">
@@ -374,9 +370,9 @@ export default function Home() {
               </h3>
               <p className="text-gray-500 mb-10 text-xl leading-relaxed">
                 Smart City International Education is a reputed educational
-                institution based in Rupandehi and Kathmandu, Nepal. Our excellence in
-                Japanese language training has best influenced student exchange
-                programs.
+                institution based in Rupandehi and Kathmandu, Nepal. Our
+                excellence in Japanese language training has best influenced
+                student exchange programs.
               </p>
               <div className="grid grid-cols-1 gap-4 mb-12">
                 {[
