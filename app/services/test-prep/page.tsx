@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import PageBanner from '@/components/PageBanner';
-import { CheckCircle2, Star, Award, Users, Laptop } from 'lucide-react';
+import { CheckCircle2, Star, Award, Users, Laptop, MapPin } from 'lucide-react';
 
 export default function TestPrep() {
   return (
@@ -22,7 +22,7 @@ export default function TestPrep() {
             <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-primary via-secondary to-primary" />
             
             <div className="grid md:grid-cols-3 gap-10 mb-20">
-              {['JLPT', 'NAT-TEST', 'TOP-J'].map((test, i) => (
+              {['JLPT', 'NAT', 'TOPJ', 'JCERT', 'JPT', 'JLCT'].map((test, i) => (
                 <div key={test} className="bg-white p-10 rounded-[2rem] text-center border border-transparent hover:border-secondary/20 transition-all group shadow-sm">
                   <div className="w-12 h-12 bg-light rounded-xl flex items-center justify-center mx-auto mb-6 group-hover:bg-secondary transition-colors">
                      <Award className="w-6 h-6 text-secondary group-hover:text-white" />
@@ -59,9 +59,19 @@ export default function TestPrep() {
                 <div className="absolute top-0 right-0 w-40 h-40 bg-secondary/20 blur-[80px] -mr-20 -mt-20" />
                 <Star className="w-12 h-12 text-secondary mb-8 group-hover:rotate-45 transition-transform duration-700" />
                 <h3 className="text-3xl font-black mb-6 tracking-tight leading-tight">Join Our Next Batch</h3>
-                <p className="text-white/70 text-lg mb-10 leading-relaxed">
-                  Admissions are now open for morning and evening shifts. Start your journey with the best mentors in Kathmandu.
+                <p className="text-white/70 text-lg mb-8 leading-relaxed">
+                  Admissions are now open for morning and evening shifts. Start your journey with the best mentors.
                 </p>
+                <div className="space-y-4 mb-10 text-sm font-bold text-white/90">
+                  <div className="flex items-center gap-3">
+                    <MapPin className="w-4 h-4 text-secondary" />
+                    <span>Kathmandu: Gongabu, Kathmandu (01-4973400)</span>
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <MapPin className="w-4 h-4 text-secondary" />
+                    <span>Pharsatikar: Suddhodan 4, Rupandehi (9766810432)</span>
+                  </div>
+                </div>
                 <Link href="/contact" className="btn-primary w-full !bg-white !text-primary hover:!bg-secondary hover:!text-white shadow-xl text-center inline-block">Check Schedule</Link>
               </div>
             </div>

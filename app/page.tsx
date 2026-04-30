@@ -90,7 +90,7 @@ const services = [
   {
     title: "Japanese Language Class",
     icon: BookOpen,
-    desc: "Comprehensive JLPT, NAT, and TOP-J preparation from N5 to N1.",
+    desc: "Comprehensive JLPT, NAT, TOPJ, JCERT, JPT, and JLCT preparation.",
   },
   {
     title: "Student Visa Processing",
@@ -216,10 +216,10 @@ export default function Home() {
             </div>
             <div>
               <p className="text-[10px] font-black text-secondary uppercase tracking-widest mb-1">
-                Our Location
+                Our Locations
               </p>
-              <p className="text-sm font-bold text-primary">
-                Butwal Sub-Metropolitan City-6, Rupandehi, Lumbini Province, Nepal
+              <p className="text-[11px] font-bold text-primary leading-tight">
+                Butwal, Kathmandu & Pharsatikar
               </p>
             </div>
           </div>

@@ -153,9 +153,13 @@ const Footer = () => {
                 </div>
                 <div className="pt-1">
                   <p className="text-white text-[10px] font-black uppercase tracking-widest mb-1">
-                    Location
+                    Locations
                   </p>
-                  <p className="text-[11px] leading-tight">Butwal Sub-Metropolitan City-6, Rupandehi, Lumbini Province, Nepal</p>
+                  <div className="text-[11px] leading-tight space-y-2">
+                    <p>Butwal: Traffic Chowk, Rupandehi</p>
+                    <p>Kathmandu: Gongabu, Kathmandu</p>
+                    <p>Pharsatikar: Suddhodan 4, Rupandehi</p>
+                  </div>
                 </div>
               </li>
               <li className="flex items-start gap-4 group">
@@ -166,9 +170,11 @@ const Footer = () => {
                   <p className="text-white text-[10px] font-black uppercase tracking-widest mb-1">
                     Call Us
                   </p>
-                  <p className="text-[11px] leading-tight">
-                    071-532473
-                  </p>
+                  <div className="text-[11px] leading-tight space-y-1">
+                    <p>Butwal: 071-532473, 9857086452</p>
+                    <p>Kathmandu: 01-4973400, 9851427377</p>
+                    <p>Pharsatikar: 9766810432</p>
+                  </div>
                 </div>
               </li>
               <li className="flex items-start gap-4 group">
