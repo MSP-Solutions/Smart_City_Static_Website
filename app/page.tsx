@@ -32,7 +32,7 @@ const slides = [
       "Achieve your dreams with our industry-leading visa success rate. Comprehensive support for Student, Work, and SSW visas.",
     image:
       "https://scontent.fktm17-1.fna.fbcdn.net/v/t39.30808-6/484053762_660201089870214_250771274889610170_n.jpg?stp=dst-jpg_s960x960_tt6&_nc_cat=103&ccb=1-7&_nc_sid=2a1932&_nc_ohc=tyhpniDv24MQ7kNvwH1Yw26&_nc_oc=Adq8Hn6tj-kMS1SXsNpGK44gzHHHNi-oWtGOCbFGdqRcaF4KNVz60oImyL8UGmndUqko5pP6LsnRtKrlwSUdK0LG&_nc_zt=23&_nc_ht=scontent.fktm17-1.fna&_nc_gid=6xdeQJJI6JvHVj2fc8OtqA&_nc_ss=782a8&oh=00_Af2bYk6PgB_mv0D-c2xfvJtXBUbQIBP4Bvvfopg2fOW3Iw&oe=69F7B374",
-    cta: "Start Application here",
+    cta: "Start Application",
     href: "/contact",
   },
   {
